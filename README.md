@@ -1,4 +1,4 @@
 cheatsheets
 ===========
 
-Collection of Cheac Sheets
+Collection of Cheat Sheets
