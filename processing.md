@@ -115,6 +115,8 @@ background(röd,grön,blå);
 if (keyPressed) {
 	det som står mellan krullparenteserna görs om en knapp är nedtryckt
 }
+//OBS om man vill göra någonting endast en gång när en knapp trycks ned är 
+//det ofta enklare att använda metoden keyPressed() istället för variabeln keyPressed
 ```
 
 ## Göra någonting om en speciell knapp är nedtryckt
