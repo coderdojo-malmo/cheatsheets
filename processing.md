@@ -130,6 +130,52 @@ if (keyPressed) {
 }
 ```
 
+## Variabler
+
+Ett exempel där färgerna rött, grönt och blått sparas i variablerna r, g och b:
+
+```java
+int r;
+int g;
+int b;
+
+void setup() {
+  size(640, 360);
+  r=255; 
+  g=0;
+  b=0;
+  background(r,g,b);
+}
+
+void draw() {
+}
+```
+
+Variabler kan också innehålla decimaltal
+
+```java
+float x;
+float y;
+float z;
+
+x=5.4;
+y=3.3;
+z=x+y; //z är nu 8.7
+```
+
+## Array
+
+En array är variabel som kan innehålla många värden.
+
+```java
+int a; //en vanlig variabel
+int[] nummer = new int[3]; //en array som kan innehålla 3 värden
+nummer[0] = 90;
+nummer[1] = 150;
+nummer[2] = 30;
+int a = numbers[0] + numbers[1]; // a är nu lika med 240
+```
+
 ## Var hittar men krullparenteser på tangentbordet?
 
 ```
